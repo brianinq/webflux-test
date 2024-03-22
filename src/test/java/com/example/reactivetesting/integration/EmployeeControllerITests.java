@@ -19,7 +19,7 @@ import java.util.List;
 
 @AutoConfigureWebTestClient
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class EmployeeControllerITests {
+public class EmployeeControllerITests extends AbstractTestContainerBase{
     @Autowired
     private EmployeeRepository employeeRepository;
 
